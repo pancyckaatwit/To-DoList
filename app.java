@@ -4,9 +4,8 @@ import javax.swing.JFrame;
 public class app extends JFrame {
     // Variables
     private title titlePanel;
-        private list l;
+    private list l;
     private button buttonPanel;
-
 
     //Constructor for app
     app() {
