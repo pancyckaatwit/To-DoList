@@ -1,6 +1,7 @@
 import javax.swing.JFrame;
 
 // Will be the JFrame for the project
+// JFrame represents the framed area for the project while JPanel is a specific area within the frame
 public class app extends JFrame {
     // Variables
     private title titlePanel;
