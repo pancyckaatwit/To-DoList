@@ -15,6 +15,7 @@ public class app extends JFrame {
         l=new list();
 
         //Sets the size and ruleset for JFrame
+        // The width of the window for the app is 600 while the height of the window is 800
         this.setSize(600, 800);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
