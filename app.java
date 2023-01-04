@@ -1,5 +1,7 @@
 import javax.swing.JFrame;
 
+import java.awt.BorderLayout;
+
 // Will be the JFrame for the project
 // JFrame represents the framed area for the project while JPanel is a specific area within the frame
 public class app extends JFrame {
@@ -20,5 +22,8 @@ public class app extends JFrame {
         this.setSize(600, 800);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
+
+        //Implements title class using titlePanel
+        this.add(titlePanel, BorderLayout.NORTH);
     }
 }
