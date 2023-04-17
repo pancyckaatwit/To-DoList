@@ -25,6 +25,9 @@ public class App extends JFrame {
 
         //Implements title class using titlePanel
         this.add(titlePanel, BorderLayout.NORTH);
+        //Implements button class using buttonPanel
         this.add(buttonPanel, BorderLayout.SOUTH);
+        //Implements list class using l
+        this.add(l, BorderLayout.CENTER);
     }
 }
