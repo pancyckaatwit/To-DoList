@@ -19,7 +19,7 @@ public class Button extends JPanel{
     Button() {
         //Sets size and background colors for buttons
         this.setPreferredSize(new Dimension(600, 75));
-        this.setBackground(Color.gray);
+        this.setBackground(Color.LIGHT_GRAY);
 
         //Add task button
         addTask= new JButton("Add Task");

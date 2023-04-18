@@ -7,7 +7,6 @@ import javax.swing.JPanel;
 
 // Will handle the title bar section of the todo list
 public class Title extends JPanel{
-
     //Constructor for title
     Title() {
         // JLabel for the text of the title
@@ -17,11 +16,11 @@ public class Title extends JPanel{
         // Handles the font of the title
         titleText.setFont(new Font("Sans=serif", Font.BOLD, 40));
         // Handles the color of the font
-        titleText.setForeground(Color.white);
+        titleText.setForeground(Color.BLACK);
         // Handles the location of the text for the title
         titleText.setHorizontalAlignment(JLabel.CENTER);
-        // Handles the background color of the title (TEMPORARY)
-        this.setBackground(Color.blue);
+        // Handles the background color of the title
+        this.setBackground(Color.LIGHT_GRAY);
 
         this.add(titleText);
     }
