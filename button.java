@@ -27,7 +27,7 @@ public class Button extends JPanel{
         addTask.setFont(new Font("Sans=serif", Font.PLAIN, 20));
 
         //Clear tasks button
-        deleteTasks= new JButton("Delete all Tasks");
+        deleteTasks= new JButton("Delete all Done Tasks");
         addTask.setBorder(emptyBorder);
         addTask.setFont(new Font("Sans=serif", Font.PLAIN, 20));
 

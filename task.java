@@ -31,7 +31,6 @@ public class Task extends JPanel{
         //Task name layout
         taskName=new JTextField("Enter task here");
         taskName.setBorder(BorderFactory.createEmptyBorder());
-        taskName.setBackground(Color.RED);
 
         //Done button layout
         doneButton=new JButton("Done");
@@ -41,5 +40,26 @@ public class Task extends JPanel{
         this.add(index, BorderLayout.WEST);
         this.add(taskName, BorderLayout.CENTER);
         this.add(doneButton, BorderLayout.EAST);
+    }
+
+    public JButton getDoneButton() {
+        return doneButton;
+    }
+
+    public boolean getState() {
+        return done;
+    }
+    //Changes the index of a task on the list to the appropriate one. This gets called in updateTaskNumbers.
+    public void changeIndex(int indexNumber) {
+        this.index.setText(indexNumber+"");
+        //Revalidate tells the layout manager to recalculate the layout that is necessary when adding componenets
+        this.revalidate();
+    }
+
+    //When the done button for a specific task is pressed the task turns green
+    public void changeState() {
+        this.setBackground(Color.GREEN);
+        taskName.setBackground(Color.GREEN);
+        done=true;
     }
 }
