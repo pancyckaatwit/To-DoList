@@ -7,7 +7,6 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-import javax.swing.plaf.basic.BasicTabbedPaneUI.TabSelectionHandler;
 
 public class Task extends JPanel{
     //Variables for an individual task

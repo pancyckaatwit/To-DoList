@@ -31,6 +31,7 @@ public class Button extends JPanel{
         addTask.setBorder(emptyBorder);
         addTask.setFont(new Font("Sans=serif", Font.PLAIN, 20));
 
+        this.add(Box.createVerticalStrut(65));
         this.add(addTask);
         this.add(Box.createHorizontalStrut(100));
         this.add(deleteTasks);
